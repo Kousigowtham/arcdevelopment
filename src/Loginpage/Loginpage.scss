@@ -1,0 +1,18 @@
+.lg-container{
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+    min-width: fit-content;
+    .lg{
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 4rem;
+        border-radius: 10px;
+    }
+}
